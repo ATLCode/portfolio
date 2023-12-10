@@ -1,6 +1,10 @@
 <template>
   <div class="home-container">
-    <div class="introduction">test</div>
+    <div class="introduction">
+      <div class="iName"></div>
+      <div class="iDescription"></div>
+      <div class="iLinks"></div>
+    </div>
     <div class="jobs">
       <div class="jHeader">Experience</div>
       <div class="jCard"></div>
@@ -94,7 +98,7 @@ img {
 }
 .introduction {
   height: 100vh;
-  background-color: red;
+  //background-color: red;
 }
 .jobs {
   min-height: 100vh;
