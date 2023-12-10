@@ -1,5 +1,14 @@
 <template>
   <div class="home-container">
+    <div class="settings">
+      <v-btn
+        variant="flat"
+        color="transparent"
+        icon="mdi-theme-light-dark"
+        theme="light"
+        @click="toggleTheme"
+      ></v-btn>
+    </div>
     <div class="introduction">
       <div class="iName"></div>
       <div class="iDescription"></div>
@@ -36,6 +45,8 @@
 </template>
 
 <script setup lang="ts">
+import { useTheme } from 'vuetify'
+const theme = useTheme()
 const projects = [
   {
     name: 'test',
@@ -78,6 +89,14 @@ const jobs = [
     tech: []
   }
 ]
+
+function toggleTheme() {
+  if (theme.global.name.value === 'light') {
+    theme.global.name.value = 'dark'
+  } else if (theme.global.name.value === 'dark') {
+    theme.global.name.value = 'light'
+  }
+}
 </script>
 
 <style scoped lang="scss">
