@@ -16,12 +16,13 @@ const light: ThemeDefinition = {
     error: '#B00020',
     info: '#2196F3',
     success: '#4CAF50',
-    warning: '#FB8C00'
+    warning: '#FB8C00',
+    icon: '#000000'
   }
 }
 
 const dark: ThemeDefinition = {
-  dark: false,
+  dark: true,
   colors: {
     background: '#0f172a',
     surface: '#FFFFFF',
@@ -32,7 +33,8 @@ const dark: ThemeDefinition = {
     error: '#B00020',
     info: '#2196F3',
     success: '#4CAF50',
-    warning: '#FB8C00'
+    warning: '#FB8C00',
+    icon: '#FFFFFF'
   }
 }
 

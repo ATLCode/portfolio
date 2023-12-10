@@ -4,6 +4,12 @@ body {
   height: 100vw;
   background-color: rgb(var(--v-theme-background));
 }
+/*
+.v-icon {
+  color: rgb(var(--v-theme-icon)) !important;
+}
+*/
+
 //Scrollbar
 /* width */
 ::-webkit-scrollbar {
