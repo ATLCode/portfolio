@@ -13,20 +13,22 @@ body {
 //Scrollbar
 /* width */
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 8px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
   background: transparent;
+  border-radius: 15px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #4e0404;
+  background: #dddfe1;
+  border-radius: 15px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #ffffff;
 }
